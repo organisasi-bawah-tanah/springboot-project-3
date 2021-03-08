@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: springboot-project-3
+  description: "springboot-project-3"
+  annotations:
+    github.com/project-slug: organisasi-bawah-tanah/springboot-project-3
+    #google.com/cloudbuild-project-slug: intern-infra
+    #jenkins.io/github-folder: backstage-jenkins-project/springboot-project-3/master
+    sonarqube.org/project-key: springboot-test-project_2020
+    lighthouse.com/website-url: http://localhost:8080
+    backstage.io/kubernetes-id: springboot-project-3-kubernetes
+    backstage.io/techdocs-ref: url:https://github.com/organisasi-bawah-tanah/springboot-project-3
+spec:
+  type: service
+  lifecycle: experimental
+  owner: xb4dc0d3
+  consumesApis:
+    - openapi-test
